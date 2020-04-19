@@ -142,7 +142,29 @@
             </form>
         </div>
     </section>
-    
+
+    <section class="container slider">
+        <div class="slide1 col-sm-7 d-flex align-items-center justify-content-around">
+            <img src="asset/kursi.png " alt="" class="p-2">
+            <div class="text">
+                <h4 class="p-2 font-weight-bold">Jaminan Kursi redBus!</h4>
+                <p>Pasti dapat atau kembalikan uang dua kali lipat</p>
+            </div>
+            <button type="button" class="btn btn-outline-danger btn-sm">VIEW DETAILS</button>
+        </div>
+    </section>
+
+    <section class="container slider2">
+        <div class="row justify-content-md-center">
+            <div class="slide2 d-flex flex-column justify-content-between align-items-center">
+                <p>Cuma redBus yang bisa di andelin</p>
+                <p>Diskon 5% + Cashback 10.000 | Kode: PAKAILAGI Untuk semua pengguna</p>
+            </div>
+        </div>
+        <div class="row justify-content-md-center mt-5">
+            <img src="asset/cus.png" alt="" class="">
+        </div>
+    </section>
 </main>
 
 
@@ -152,12 +174,11 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   
-<!-- JQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script type="text/javascript" src="../../HTML&CSS3/Slick/slick/slick.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
-
+    $('.carousel').carousel({
+    interval: 2000
+    })
 });
 </script>
 </body>

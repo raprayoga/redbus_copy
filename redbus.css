@@ -9,3 +9,49 @@ nav{
     background-image: url(asset/sebastian-staines-CoYj5sQUzKU-unsplash.jpg);
     background-size: cover;
 }
+
+.slider{
+    position: relative;
+}
+
+.slider img{
+    height: 50%;
+}
+
+.text h4{
+    font-size: 15px;
+}
+
+.text p, .slider button{
+    font-size: 13px;
+}
+
+.slide1{
+    text-align: center;
+    height: 150px;
+    background-color: white;
+    box-shadow: 0 2px 5px 0 black;
+    position: absolute;
+    top: -100px;
+    left: 23%;
+}
+
+.slide2{
+    height: 200px;
+    width: 350px;
+    background-image: url(asset/pasti.png);
+    background-size: cover;
+    box-shadow: 0 2px 5px 0 black;
+    margin-top: 100px;
+    transition: 200ms;
+}
+
+.slider2{
+    height: 600px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.slide2:hover{
+    transform: scale(1.05);
+}
