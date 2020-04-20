@@ -55,3 +55,36 @@ nav{
 .slide2:hover{
     transform: scale(1.05);
 }
+
+.video-section{
+    width: 1122px;
+    height: 236px;
+    background-color: #bc2d3f;
+    position: relative;
+}
+
+.video-section iframe{
+    position: absolute;
+    left: 10px;
+    top: 20px
+}
+
+.service p{
+    /* font-size: 10px; */
+    color: grey;
+}
+
+.po img{
+    box-sizing: border-box;
+}
+
+.layanan{
+    background-color: #eee;
+    height: 600px;
+}
+
+.gambar-layanan div{
+    background-color: white;
+    height: 390px;
+    border: 1px solid #eee1ee;
+}
